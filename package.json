@@ -1,0 +1,27 @@
+{
+  "name": "besd-fn-022",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express and MySQL short-course registration API",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.4"
+  },
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.4"
+  }
+}
